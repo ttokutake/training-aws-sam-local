@@ -6,3 +6,8 @@ https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/test-sam-local.html
 
 1. `$ asdf global nodejs <VERSION>`
 2. `$ npm install -g aws-sam-local`
+
+# How to start locally
+
+1. `$ sam local start-api`
+2. `$ curl http://localhost:3000/products`
