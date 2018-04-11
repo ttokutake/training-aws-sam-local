@@ -1,12 +1,16 @@
 'use strict';
 
+const {DynamoDB} = require('aws-sdk');
+
+const dynamodb = new DynamoDB();
+
 exports.handler = (event, context, callback) => {
   const id = (event.pathParameters || {}).product;
   switch(event.httpMethod){
     case 'GET':
-      if(id) {
-          callback(null, {body: `This is a READ operation on product ID ${id}`});
-          return;
+      if (id) {
+        callback(null, {body: `This is a READ operation on product ID ${id}`});
+        return;
       }
 
       callback(null, {body: 'This is a LIST operation, return all products'});
