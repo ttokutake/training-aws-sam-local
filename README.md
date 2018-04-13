@@ -1,6 +1,7 @@
 # AWS Document
 
-https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/test-sam-local.html
+- https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/test-sam-local.html
+- https://aws.amazon.com/jp/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/
 
 # How to install aws-sam-local via asdf & nodejs
 
