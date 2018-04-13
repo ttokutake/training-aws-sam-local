@@ -8,6 +8,11 @@
 1. `$ asdf global nodejs <VERSION>`
 2. `$ npm install -g aws-sam-local`
 
+# How to use localstack
+
+1. Clone git@github.com:localstack/localstack.git
+2. `$ TMPDIR=/private$TMPDIR docker-compose up # for Mac`
+
 # How to start locally
 
 1. `$ sam local start-api`
